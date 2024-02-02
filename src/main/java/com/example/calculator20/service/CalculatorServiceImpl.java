@@ -29,6 +29,9 @@ public class CalculatorServiceImpl implements CalculatorService {
 
     @Override
     public int division(int firstNum, int secondNum) {
+        if (secondNum == 0){
+            throw new IllegalArgumentException("Ошибка: деление на ноль");
+        }
         return firstNum / secondNum;
     }
 }

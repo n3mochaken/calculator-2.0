@@ -1,14 +1,16 @@
 package com.example.calculator20;
 
+
 import com.example.calculator20.service.CalculatorService;
 import com.example.calculator20.service.CalculatorServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static java.lang.System.out;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorServiceImplTest {
+
     private CalculatorService calculatorService = new CalculatorServiceImpl();
     private Integer expectedResult = 10;
 
